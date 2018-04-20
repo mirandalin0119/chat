@@ -1,0 +1,53 @@
+.loading {
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-weight:bold;
+}
+
+.content {
+  margin-top:5rem;
+}
+
+.oneMessage {
+  display: flex;
+}
+
+figure img {
+max-width:60%;
+}
+
+.figure-caption {
+  font-weight: bold;
+}
+
+.comment {
+  display: inline-block;
+}
+
+.btn-xs {
+  padding: 5px 5px;
+  font-size:13px;
+}
+
+img {
+  margin-right:2rem;
+}
+
+input {
+  margin-bottom:2rem;
+}
+
+.channels {
+  margin-bottom: 2rem;
+  font-weight: bold; 
+}
+
+#gen, #rand{
+  margin-left: 1rem;
+}
+
+#gen {
+  margin-right: 1rem;
+}
